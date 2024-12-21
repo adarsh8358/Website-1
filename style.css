@@ -1,0 +1,751 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1710445707946-e7ac2ff25ca8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+         /* PAGE - 1 */
+
+.ri-menu-fill{
+    display: none;
+}
+
+.nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.logo{
+    margin-left: 1%;
+    margin-top: -1%;
+}
+
+.items{
+    display: flex;
+    gap: 50px;
+    margin-left: 48%;
+    margin-top: 12px;
+}
+
+.items >a{
+    text-decoration: none;
+    color: white;
+}
+
+.items >a:hover{
+    text-decoration: underline;
+    color: rgb(240, 213, 163);
+}
+
+.sib{
+    padding: 10px 20px;
+    border-radius: 10%;
+    background-color: #ECDFCC;
+}
+
+.sib:hover{
+    background-color: white;
+}
+
+.lib{
+    padding: 10px 20px;
+    border-radius: 10%;
+    background-color: #79D7BE;
+    color: black;
+}
+
+.lib:hover{
+    background-color: rgb(49, 49, 160);
+    color: white;
+}
+
+
+.p1h1{
+    font-family: montserrat;
+    margin-top: 7%;
+    margin-left: 15%;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.p1h2{
+    font-family: montserrat;
+    margin-left: 15%;
+    margin-top: 1%;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.p1p1{
+    font-family: montserrat;
+    margin-left: 15%;
+    margin-top: 2%;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.socialmedia{
+    width: 200px;
+    margin-left: 15%;
+    margin-top: 2%;
+    display: flex;
+    gap: 1px;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.socialmedia .ri-facebook-circle-line{
+    background-color: rgba(0, 0, 0, 0.384);
+    font-size: 20px;
+}
+
+.socialmedia  .ri-twitter-x-line {
+    background-color: rgba(0, 0, 0, 0.384);
+    font-size: 20px;
+}
+
+.socialmedia .ri-instagram-line{
+    background-color: rgba(0, 0, 0, 0.384);
+    font-size: 20px;
+}
+
+.vu{
+    margin-left: 15%;
+    margin-top: 2%;
+    padding: 10px 30px;
+    border-radius: 10%;
+    font-size: 15px;
+    background-color: #D8C4B6;
+    color: black;
+}
+
+.vu:hover{
+    background-color: #777261;
+    color: white;
+}
+
+
+
+
+          /* PAGE - 2 */
+
+
+
+
+
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: #b1d6b4;
+    padding: 2%;
+}
+
+.box1{
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+}
+
+.box2{
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.box3{
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+}
+
+.box1 img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10%;
+    margin-top: 3px;
+}
+
+.box2 img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10%;
+    margin-top: 3px;
+}
+
+.box3 img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10%;
+    margin-top: 3px;
+}
+
+
+.s1{
+    font-family: montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.s2{
+    font-family: montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.s3{
+    font-family: montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.p2h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    margin-left: 1%;
+    margin-top: 2%;
+    color: #863f22;
+    box-shadow: 5px, 5px, 5px, black;
+}
+
+.p2h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    margin-top: 1%;
+    margin-right: 10px;
+    color: #863f22;
+}
+
+.p2h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-size: 16px;
+    margin-left: 1%;
+    margin-top: 2%;
+    color: #863f22;
+}
+
+
+
+
+          /* PAGE - 3 */
+
+
+
+
+          
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color: #7ec0a76e;
+}
+
+.oph{
+    font-family: montserrat;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 2%;
+    text-decoration: underline;
+}
+
+.Products{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-left: -1.5%;
+}
+
+.p1{
+    height: 330px;
+    width: 230px;
+    border: 1px solid black;
+    margin-left: 5.7%;
+    margin-top: 5%;
+    background-color: rgba(206, 175, 175, 0.849);
+    transition: 0.5s;
+}
+
+.p1:hover{
+    filter: scale(1);
+    transform: scale(1.03);
+}
+
+
+
+.p1 .image img{
+    height: 230px;
+    width: 230px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #0b8d71a2;
+    margin-left: -0.5%;
+}
+
+.dlh{
+    font-family: montserrat;
+    font-size: 14px;
+    margin-left: 17%;
+}
+
+.pc1{
+    font-size: 14px;
+    margin-left: 31%;
+    margin-top: 3%;
+}
+
+.atc1{
+    padding: 2px 5px;
+    margin-left: 30%;
+    margin-top: 4%;
+    background-color: rgba(231, 231, 12, 0.692);
+    color: white;
+}
+
+.atc1:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.p2{
+    height: 330px;
+    width: 230px;
+    border: 1px solid black;
+    margin-left: 1%;
+    margin-top: 5%;
+    background-color: rgba(206, 175, 175, 0.849);
+    transition: 0.5s;
+}
+
+.p2:hover{
+    filter: scale(1);
+    transform: scale(1.03);
+}
+
+
+
+.p2 .image img{
+    height: 230px;
+    width: 230px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #0b8d71a2;
+    margin-left: -0.5%;
+}
+
+.shh{
+    font-family: montserrat;
+    font-size: 14px;
+    margin-left: 15%;
+}
+
+.pc2{
+    font-size: 14px;
+    margin-left: 32%;
+    margin-top: 3%;
+}
+
+.atc2{
+    padding: 2px 5px;
+    margin-left: 30%;
+    margin-top: 4%;
+    background-color: rgba(231, 231, 12, 0.692);
+    color: white;
+}
+
+.atc2:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+/*  product-3  */
+
+.p3{
+    height: 330px;
+    width: 230px;
+    border: 1px solid black;
+    margin-left: 1%;
+    margin-top: 5%;
+    background-color: rgba(206, 175, 175, 0.849);
+    transition: 0.5s;
+}
+
+.p3:hover{
+    filter: scale(1);
+    transform: scale(1.03);
+}
+
+
+
+.p3 .image img{
+    height: 230px;
+    width: 230px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #0b8d71a2;
+    margin-left: -0.5%;
+}
+
+.blf1{
+    font-family: montserrat;
+    font-size: 14px;
+    margin-left: 20%;
+}
+
+.pc3{
+    font-size: 14px;
+    margin-left: 33%;
+    margin-top: 3%;
+}
+
+.atc3{
+    padding: 2px 5px;
+    margin-left: 30%;
+    margin-top: 4%;
+    background-color: rgba(231, 231, 12, 0.692);
+    color: white;
+}
+
+.atc3:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/*  product-4  */
+
+.p4{
+    height: 330px;
+    width: 230px;
+    border: 1px solid black;
+    margin-left: 1%;
+    margin-top: 5%;
+    background-color: rgba(206, 175, 175, 0.849);
+    transition: 0.5s;
+}
+
+.p4:hover{
+    filter: scale(1);
+    transform: scale(1.03);
+}
+
+
+
+.p4 .image img{
+    height: 230px;
+    width: 230px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #0b8d71a2;
+    margin-left: -0.5%;
+}
+
+.blf2{
+    font-family: montserrat;
+    font-size: 14px;
+    margin-left: 20%;
+}
+
+.pc4{
+    font-size: 14px;
+    margin-left: 33%;
+    margin-top: 3%;
+}
+
+.atc4{
+    padding: 2px 5px;
+    margin-left: 30%;
+    margin-top: 4%;
+    background-color: rgba(231, 231, 12, 0.692);
+    color: white;
+}
+
+.atc4:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+        /* Products - 5 */
+
+
+.p5{
+    height: 330px;
+    width: 230px;
+    border: 1px solid black;
+    margin-left: 1%;
+    margin-top: 5%;
+    background-color: rgba(206, 175, 175, 0.849);
+    transition: 0.5s;
+}
+
+.p5:hover{
+    filter: scale(1);
+    transform: scale(1.03);
+}
+
+
+.p5 .image img{
+    height: 230px;
+    width: 230px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #0b8d71a2;
+    margin-left: -0.1%;
+}
+
+.ofc{
+    font-family: montserrat;
+    font-size: 14px;
+    margin-left: 40%;
+}
+
+.pc5{
+    font-size: 14px;
+    margin-left: 34%;
+    margin-top: 3%;
+}
+
+.atc5{
+    padding: 2px 5px;
+    margin-left: 33%;
+    margin-top: 4%;
+    background-color: rgba(231, 231, 12, 0.692);
+    color: white;
+}
+
+.atc5:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+         /* product-2 */
+
+
+.product2{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    margin-top: -8%;
+}
+
+
+
+           /* page - 4 */
+
+
+           
+.page4{
+    height: 70%;
+    width: 100%;
+    background-color: #000;
+}
+
+
+.page5{
+    height: 40%;
+    width: 100%;
+    display: none;
+}
+
+
+.fu{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.b1{
+    height: 100%;
+    width: 25%;
+    margin-right: 12%;
+    margin-top: 2%;
+}
+
+.b2{
+    height: 80%;
+    width: 20%;
+    border-radius: 5%;
+    background-color: #ffffff27;
+    margin-top: 7.5%;
+}
+
+.b3{
+    height: 80%;
+    width: 20%;
+    border-radius: 5%;
+    background-color: #ffffff27;
+    margin-top: 7.5%;
+}
+
+.b4{
+    height: 80%;
+    width: 20%;
+    border-radius: 5%;
+    background-color: #ffffff27;
+    margin-top: 7.5%;
+}
+
+.flnav{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.p4h1{
+    font-family: montserrat;
+    font-size: 18px;
+    margin-left: 10%;
+    padding-top: 5%;
+    text-decoration: underline;
+    color: white;
+}
+
+
+.p4h2{
+    font-family: montserrat;
+    font-size: 20px;
+    color: white;
+    padding: 10px 0px;
+    margin-left: 30%;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.p4h21{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-top: 15%;
+    margin-left: 35%;
+    font-weight: 400;
+}
+
+
+.p4h3{
+    font-family: montserrat;
+    font-size: 20px;
+    color: white;
+    padding: 10px 0px;
+    margin-left: 35%;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.p4p22{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-top: 15%;
+    margin-left: 35%;
+    font-weight: 400;
+}
+
+
+
+.p4h4{
+    font-family: montserrat;
+    color: white;
+    margin-left: 38%;
+    font-size: 20px;
+    padding: 10px 0px;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+
+.p4h23{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-top: 12%;
+    margin-left: 30%;
+    font-weight: 400;
+}
+
+.p4h24{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-top: 12%;
+    margin-left: 30%;
+    font-weight: 400;
+}
+
+
+
+.fimage img{
+    border-radius: 50%;
+    margin-top: 70%;
+    margin-left: 15%;
+}
+
+.fspan{
+    font-family: montserrat;
+    font-size: 102x;
+    margin-bottom: 1%;
+    font-weight: 500;
+    color: white;
+    margin-left: 13%;
+}
+
+.copyright{
+    margin-top: 2.8%;
+    margin-left: 38%;
+    color: white;
+}
+
+.fsocialmedia{
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+    margin-top: 2.5%;
+    color: white;
+}
+
+
+
+
